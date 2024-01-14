@@ -1,0 +1,21 @@
+{
+  "name": "neorose-vimpine",
+  "displayName": "NeoRose VimPine",
+  "description": "NeoVim Rose Pine theme port for vscode",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "NeoRose VimPine",
+        "uiTheme": "vs-dark",
+        "path": "./themes/NeoRose VimPine-color-theme.json"
+      }
+    ]
+  }
+}
