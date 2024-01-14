@@ -2,7 +2,7 @@
   "name": "neorose-vimpine",
   "displayName": "NeoRose-VimPine",
   "description": "NeoVim Rose Pine theme port for vscode",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "publisher": "rexcor",
   "repository": {
     "type": "git",
