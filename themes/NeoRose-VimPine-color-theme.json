@@ -105,7 +105,7 @@
     "editorBracketHighlight.foreground5": "#ebbcba80",
     "editorBracketHighlight.foreground6": "#c4a7e780",
     "editorBracketMatch.background": "#0000",
-    "editorBracketMatch.border": "#908caa",
+    "editorBracketMatch.border": "#908caa81",
     "editorBracketPairGuide.activeBackground1": "#31748f",
     "editorBracketPairGuide.activeBackground2": "#ebbcba",
     "editorBracketPairGuide.activeBackground3": "#c4a7e7",
@@ -120,7 +120,7 @@
     "editorBracketPairGuide.background6": "#eb6f9280",
     "editorCodeLens.foreground": "#ebbcba",
     "editorCursor.background": "#e0def4",
-    "editorCursor.foreground": "#6e6a86",
+    "editorCursor.foreground": "#c5c2d7",
     "editorError.border": "#0000",
     "editorError.foreground": "#eb6f92",
     "editorGhostText.foreground": "#908caa",
@@ -564,7 +564,11 @@
   "tokenColors": [
     {
       "name": "Comment",
-      "scope": ["comment", "punctuation.definition.comment"],
+      "scope": [
+        "comment",
+        "punctuation.definition.comment",
+        "comment.block.documentation.js"
+      ],
       "settings": {
         "fontStyle": "italic",
         "foreground": "#6e6a86"
