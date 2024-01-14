@@ -1,20 +1,31 @@
 {
   "name": "neorose-vimpine",
-  "displayName": "NeoRose VimPine",
+  "displayName": "NeoRose-VimPine",
   "description": "NeoVim Rose Pine theme port for vscode",
   "version": "0.0.1",
+  "publisher": "rexcor",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rexcor/NeoRose-VimPine.git"
+  },
   "engines": {
     "vscode": "^1.85.0"
   },
   "categories": [
     "Themes"
   ],
+  "keywords": [
+    "theme",
+    "dark theme",
+    "rose pine",
+    "neo vim"
+  ],
   "contributes": {
     "themes": [
       {
-        "label": "NeoRose VimPine",
+        "label": "NeoRose-VimPine",
         "uiTheme": "vs-dark",
-        "path": "./themes/NeoRose VimPine-color-theme.json"
+        "path": "./themes/NeoRose-VimPine-color-theme.json"
       }
     ]
   }
