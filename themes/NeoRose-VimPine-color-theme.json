@@ -3,6 +3,7 @@
   "colors": {
     "activityBar.activeBorder": "#e0def4",
     "activityBar.background": "#191724",
+    "activityBar.border": "#6e6a8633",
     "activityBar.dropBorder": "#26233a",
     "activityBar.foreground": "#e0def4",
     "activityBar.inactiveForeground": "#908caa",
@@ -353,6 +354,7 @@
     "settings.focusedRowBorder": "#6e6a8633",
     "settings.rowHoverBackground": "#1f1d2e",
     "sideBar.background": "#191724",
+    "sideBar.border": "#6e6a8633",
     "sideBar.dropBackground": "#1f1d2e",
     "sideBar.foreground": "#908caa",
     "sideBarSectionHeader.background": "#0000",
